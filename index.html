@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Producto Único</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#product">Producto</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Producto -->
+    <section id="product">
+        <div class="product-container">
+            <img src="images/producto1.png" alt="Producto" class="product-image">
+            <div class="product-info">
+                <h1>Producto Increíble</h1>
+                <p>Este es un producto único de gran calidad. ¡No te lo puedes perder!</p>
+                <p>Precio: <strong>$99.99</strong></p>
+                
+                <!-- Selección de Cantidad -->
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                
+                <!-- Botón de Compra -->
+                <button id="payment-button">Comprar Ahora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2024 Tienda Única. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:contacto@tiendounica.com">contacto@tiendounica.com</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
